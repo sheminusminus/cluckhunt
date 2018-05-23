@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    ["babel-plugin-transform-builtin-extend", {
+      "globals": ["Error"]
+    }],
+    ["module-resolver", {
+      "alias": {
+        "assets": "./web/assets",
+        "modules": "./web/modules",
+        "web": "./web"
+      }
+    }],
+    "react-hot-loader/babel",
+    "transform-runtime",
+    "transform-object-rest-spread"
+  ]
+}

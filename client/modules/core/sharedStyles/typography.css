@@ -1,0 +1,7 @@
+html, *, *:before, *:after,
+h1, h2, h3, h4, h5, h6,
+p, span, a {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+}
